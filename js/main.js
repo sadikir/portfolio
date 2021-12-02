@@ -1,9 +1,4 @@
-/*
-* Template Name: PRO Card - Material Resume / CV / vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.0
-*/
+
 
 (function($) {
 "use strict";
@@ -52,7 +47,7 @@
 
         $('#contact-form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                var url = "https://rungomail.herokuapp.com";
 
                 $.ajax({
                     type: "POST",
@@ -272,7 +267,7 @@
         //Google Maps
         $("#map").googleMap();
         $("#map").addMarker({
-            address: "15 avenue des champs Elysées 75008 Paris" // Your Address
+            address: "12214 119 avenue Northwest Edmonton Alberta" // Your Address
         });
     });
 
